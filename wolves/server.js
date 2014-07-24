@@ -1,5 +1,5 @@
 // installed packages: hapi, moonboots-hapi, domready, getconfig, templatizer,
-//     ampersand-view, ampersand-model, ampersand-router, ampersand-view-switcher
+//     ampersand-view, ampersand-model, ampersand-router, ampersand-view-switcher, ampersand-dom
 
 var hapi = require('hapi');
 var moonboots = require('moonboots_hapi');

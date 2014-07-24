@@ -13,7 +13,7 @@ window.app = {
 				el: document.body
 			});
 			
-			self.router.history.start({ pushState: true });  // pushState true says to use real urls instead of hashs
+			self.router.history.start({ pushState: true });  // pushState true says to use real URLs instead of hashs; add '{ trigger: true }' to change URL
 		});
 	}
 };
