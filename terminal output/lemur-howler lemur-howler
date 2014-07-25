@@ -1,0 +1,116 @@
+Last login: Fri Jul 25 11:12:04 on ttys004
+Administrators-MacBook-Pro:wolves alex$ cd ..
+Administrators-MacBook-Pro:ItsAliveTraining alex$ cd lemur-howler/
+Administrators-MacBook-Pro:lemur-howler alex$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sane defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (lemur-howler) 
+version: (0.0.0) 0.0.1
+description: Howls like a wolf!
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: Lemur
+license: (ISC) 
+About to write to /Users/alex/Desktop/ItsAliveTraining/lemur-howler/package.json:
+
+{
+  "name": "lemur-howler",
+  "version": "0.0.1",
+  "description": "Howls like a wolf!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lemur",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+Administrators-MacBook-Pro:lemur-howler alex$ npm whoami
+Not authed.  Run 'npm adduser'
+Administrators-MacBook-Pro:lemur-howler alex$ npm adduser alexbonine
+Username: alexbonine
+Password: 
+Email: (this IS public) lemurdev@gmail.com
+Administrators-MacBook-Pro:lemur-howler alex$ npm login
+Username: (alexbonine) 
+Password: (or leave unchanged) 
+Email: (this IS public) (lemurdev@gmail.com) 
+Administrators-MacBook-Pro:lemur-howler alex$ npm whoami
+alexbonine
+Administrators-MacBook-Pro:lemur-howler alex$ npm publish
+npm ERR! Error: Attempt to unlock ., which hasn't been locked
+npm ERR!     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+npm ERR!     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-local.js:30:5)
+npm ERR!     at /usr/local/lib/node_modules/npm/lib/cache/add-local.js:47:20
+npm ERR!     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+npm ERR!     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:167:38
+npm ERR!     at OpenReq.Req.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:144:5)
+npm ERR!     at OpenReq.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:64:22)
+npm ERR!     at Object.oncomplete (fs.js:107:15)
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 13.3.0
+npm ERR! command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+npm ERR! cwd /Users/alex/Desktop/ItsAliveTraining/lemur-howler
+npm ERR! node -v v0.10.29
+npm ERR! npm -v 1.4.14
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /Users/alex/Desktop/ItsAliveTraining/lemur-howler/npm-debug.log
+npm ERR! not ok code 0
+Administrators-MacBook-Pro:lemur-howler alex$ sudo npm publish
+Password:
++ lemur-howler@0.0.1
+Administrators-MacBook-Pro:lemur-howler alex$ cd ../wolves
+Administrators-MacBook-Pro:wolves alex$ sudo npm i lemur-howler
+npm WARN package.json wolves@0.0.0 No repository field.
+npm WARN package.json wolves@0.0.0 No README data
+lemur-howler@0.0.1 node_modules/lemur-howler
+Administrators-MacBook-Pro:wolves alex$ cd ../lemur-howler/
+Administrators-MacBook-Pro:lemur-howler alex$ npm version minor
+v0.1.0
+Administrators-MacBook-Pro:lemur-howler alex$ npm publish
+npm ERR! Error: Attempt to unlock ., which hasn't been locked
+npm ERR!     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:44:11)
+npm ERR!     at cb (/usr/local/lib/node_modules/npm/lib/cache/add-local.js:30:5)
+npm ERR!     at /usr/local/lib/node_modules/npm/lib/cache/add-local.js:47:20
+npm ERR!     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:30:7
+npm ERR!     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:167:38
+npm ERR!     at OpenReq.Req.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:144:5)
+npm ERR!     at OpenReq.done (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:64:22)
+npm ERR!     at Object.oncomplete (fs.js:107:15)
+npm ERR! If you need help, you may report this *entire* log,
+npm ERR! including the npm and node versions, at:
+npm ERR!     <http://github.com/npm/npm/issues>
+
+npm ERR! System Darwin 13.3.0
+npm ERR! command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+npm ERR! cwd /Users/alex/Desktop/ItsAliveTraining/lemur-howler
+npm ERR! node -v v0.10.29
+npm ERR! npm -v 1.4.14
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /Users/alex/Desktop/ItsAliveTraining/lemur-howler/npm-debug.log
+npm ERR! not ok code 0
+Administrators-MacBook-Pro:lemur-howler alex$ sudo npm publish
+Password:
++ lemur-howler@0.1.0
+Administrators-MacBook-Pro:lemur-howler alex$ npm version major
+v1.0.0
+Administrators-MacBook-Pro:lemur-howler alex$ sudo npm publish
++ lemur-howler@1.0.0
+Administrators-MacBook-Pro:lemur-howler alex$ 

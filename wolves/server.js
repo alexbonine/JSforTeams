@@ -1,4 +1,4 @@
-// installed packages: hapi, moonboots-hapi, domready, getconfig, templatizer, moment
+// installed packages: hapi, moonboots-hapi, domready, getconfig, templatizer, moment, lemur-howler,
 //     ampersand-view, ampersand-model, ampersand-router, ampersand-view-switcher, ampersand-dom, ampersand-rest-collection
 
 var hapi = require('hapi');

@@ -3,10 +3,13 @@ var MainView = require('./views/main');  // relative path
 var Router = require('./router');
 var Howls = require('./models/howls');
 var Me = require('./models/me');
+var Howler = require('lemur-howler')
 
 window.app = {
 	init: function () {
 		var self = this;
+
+		Howler.play();
 
 		this.me = new Me();
 

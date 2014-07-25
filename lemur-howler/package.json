@@ -1,0 +1,14 @@
+{
+  "name": "lemur-howler",
+  "version": "1.0.0",
+  "description": "Howls like a wolf!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lemur",
+  "license": "ISC",
+  "dependencies": {
+    "play-audio": "^0.1.0"
+  }
+}
