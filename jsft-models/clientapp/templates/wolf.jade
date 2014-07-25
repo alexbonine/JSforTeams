@@ -1,0 +1,12 @@
+.col-xs-12.col-sm-6
+  .well(role='content')
+    h4.text-center(role='name')
+    img.img-thumbnail.img-rounded.center-block(role='map')
+    form
+      .form-group
+        input.form-control(type='range', role='zoom', min='1', max='11', step='1')
+      .row
+        .form-group.col-xs-6
+          input.form-control(type='text', role='latitude', placeholder='Latitude')
+        .form-group.col-xs-6
+          input.form-control(type='text', role='longitude', placeholder='Longitude')

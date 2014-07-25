@@ -1,0 +1,20 @@
+{
+  "name": "jsft-models",
+  "description": "A dive into ampersand models for JSfT.",
+  "version": "0.0.1",
+  "author": "Luke Karrys <luke@andyet.net>",
+  "dependencies": {
+    "ampersand-model": "^3.0.4",
+    "ampersand-rest-collection": "^1.1.1",
+    "ampersand-view": "^6.0.8",
+    "beefy": "^2.0.3",
+    "browserify": "^4.2.3",
+    "domready": "^1.0.5",
+    "jade": "^1.4.2",
+    "jadeify": "^2.4.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy clientapp/app.js 8081 --open -- -t jadeify"
+  }
+}

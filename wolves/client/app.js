@@ -9,13 +9,9 @@ window.app = {
 		var self = this;
 
 		this.me = new Me();
-		this.me.fetch();
 
 		this.howls = new Howls();
-		this.howls.fetch();
-		setInterval(function () {
-			self.howls.fetch();
-		}, 5000);
+		this.howls.fetchRealtime();
 
 		this.router = new Router();
 
@@ -25,6 +21,7 @@ window.app = {
 			});
 			
 			self.router.history.start({ pushState: true });  // pushState true says to use real URLs instead of hashs; add '{ trigger: true }' to change URL
+			self.me.fetch();
 		});
 	}
 };

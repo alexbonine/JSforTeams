@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "age": 21,
+    "name": "Pena Wall",
+    "latitude": 42.111638,
+    "longitude": -88.346528
+  },
+  {
+    "id": 1,
+    "age": 30,
+    "name": "Charity Sloan",
+    "latitude": 34.289651,
+    "longitude": -119.998688
+  },
+  {
+    "id": 2,
+    "age": 31,
+    "name": "Cannon Jefferson",
+    "latitude": 51.299039,
+    "longitude": -102.96979
+  },
+  {
+    "id": 3,
+    "age": 29,
+    "name": "Brennan Terrell",
+    "latitude": 47.746794,
+    "longitude": -107.542488
+  },
+  {
+    "id": 4,
+    "age": 40,
+    "name": "Rosemarie Rich",
+    "latitude": 48.447132,
+    "longitude": -110.857764
+  },
+  {
+    "id": 5,
+    "age": 33,
+    "name": "Francine Craft",
+    "latitude": 40.023182,
+    "longitude": -104.060682
+  }
+]

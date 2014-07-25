@@ -1,0 +1,9 @@
+.well .form-group {
+    margin: 5px 0;
+}
+
+.well .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.is-me {border: 1px solid blue;}

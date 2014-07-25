@@ -1,0 +1,16 @@
+body
+  nav.navbar.navbar-default.navbar-static-top
+    div.container
+      div.navbar-header
+        a.navbar-brand(href='/') WolfBook
+      form.navbar-form.navbar-right
+        .form-group
+          select.form-control(role='sort-friends')
+            option(value='name') name
+            option(value='age') age
+      button.btn.btn-primary.navbar-btn.navbar-right(role='find-friends') Find Friends
+  .container
+    main(role="page-container")
+      .row
+          div(role='me')
+      .row(role='friends')
